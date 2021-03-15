@@ -1,6 +1,14 @@
-h1 {
-    color: red;
+body {
+    background-color: aliceblue
 }
-p.sub {
-    color: white;
+
+#logo{
+    height: 50px;
+    width: 100px;
+}
+
+.accomm {
+    height: 100px;
+    width: 120px;
+    background-color: lightslategray10;
 }
