@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue
+    background-color: aliceblue;
 }
 
 #logo{
@@ -11,4 +11,20 @@ body {
     height: 100px;
     width: 120px;
     background-color: lightslategray10;
+}
+section {
+    background-color: lightgray;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid 1px #777;
+    box-shadow: 4px 4px 4px #777;    
+}
+.pop {
+    height: 100px;
+    width: 120px;
+}
+.feature{
+    display: flex ;
+    justify-content: space-between;
 }
