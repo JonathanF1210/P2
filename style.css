@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
 #logo{
@@ -9,22 +9,100 @@ body {
 
 .accomm {
     height: 100px;
-    width: 120px;
-    background-color: lightslategray10;
+    width: 150px;
+    padding: .2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid 1px rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px #777; 
+    
 }
 section {
-    background-color: lightgray;
-    padding: 1rem;
-    margin: 1rem;
+    background-color: rgba(231, 230, 230, 0.589);
+    padding: .1rem;
+    margin: .1rem;
     border-radius: 1rem;
     border: solid 1px #777;
     box-shadow: 4px 4px 4px #777;    
 }
+section.sidebar{
+    max-width: 200px;
+   
+}
 .pop {
     height: 100px;
     width: 120px;
+    height: 100px;
+    width: 120px;
+    padding: .2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid 1px #777;
+    box-shadow: 4px 4px 4px #777; 
 }
 .feature{
     display: flex ;
     justify-content: space-between;
 }
+button{
+    background-color: blue;
+    color
+}
+
+#oldport{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px #777; 
+}
+
+#pomport{
+    height: 140px;
+    width: 220px;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px #777; 
+}
+
+#island{
+    height: 140px;
+    width: 220px;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px #777; 
+}
+
+#nationalpark{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px #777; 
+}
+
+#notre{
+    height: 140px;
+    width: 220px;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px #777; 
+}
+
+#longchamp{
+    height: 140px;
+    width: 220px;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px #777; 
+}
+div.fort-island{
+    flex-direction: row;
+}
+
