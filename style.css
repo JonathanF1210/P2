@@ -47,6 +47,7 @@ section.sidebar{
 button{
     background-color: blue;
     color
+    
 }
 
 #oldport{
@@ -106,3 +107,36 @@ div.fort-island{
     flex-direction: row;
 }
 
+.container div:nth-child(1) {
+ background-color: aqua;
+ 
+}
+
+.container div:nth-child(2) {
+    background-color: blueviolet;
+    
+
+}
+
+.container div:nth-child(3) {
+    background-color: brown;
+    
+}
+
+.container div:nth-child(4) {
+    background-color: cornflowerblue;
+    
+
+}
+ .container div:nth-child(5) {
+     background-color: darkgreen;
+    
+ }
+  .container div:nth-child(6) {
+      background-color: darkorange;
+    
+  }
+  .container {
+      display: grid;
+      grid-template-columns: 20em 20em 20em 20em;
+  }
