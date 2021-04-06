@@ -50,66 +50,31 @@ button{
     
 }
 
-#oldport{
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    margin: 1rem;
-    border-radius: 1rem;
+
+.container div{
     box-shadow: 4px 4px 4px #777; 
+    margin: 1rem; 
+    border-radius: 1rem;
+    width: 220px;
 }
 
-#pomport{
+.container img{
     height: 140px;
     width: 220px;
     object-fit: cover;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 4px 4px 4px #777; 
+    margin: 0;
+    border-radius: 1rem 1rem 0 0 ;
 }
 
-#island{
-    height: 140px;
-    width: 220px;
-    object-fit: cover;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 4px 4px 4px #777; 
+.tall img {
+    height: 500px;   
+}
+.tall {
+    grid-row-end: span 2;
 }
 
-#nationalpark{
-    height: 300px;
-    width: 200px;
-    object-fit: cover;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 4px 4px 4px #777; 
-}
-
-#notre{
-    height: 140px;
-    width: 220px;
-    object-fit: cover;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 4px 4px 4px #777; 
-}
-
-#longchamp{
-    height: 140px;
-    width: 220px;
-    object-fit: cover;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 4px 4px 4px #777; 
-}
-div.fort-island{
-    flex-direction: row;
-}
-
-.container div:nth-child(1) {
- background-color: aqua;
- 
+.container h3{
+    margin-left: 1rem;
 }
 
 .container div:nth-child(2) {
@@ -139,4 +104,7 @@ div.fort-island{
   .container {
       display: grid;
       grid-template-columns: 20em 20em 20em 20em;
+      grid-template-rows: 20em 20em 20em 20em;
+
   }
+
