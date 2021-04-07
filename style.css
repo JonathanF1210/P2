@@ -66,6 +66,10 @@ button{
     border-radius: 1rem 1rem 0 0 ;
 }
 
+.fas.fa-dog {
+        color: blue;
+}
+
 .tall img {
     height: 500px;   
 }
