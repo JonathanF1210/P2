@@ -1,110 +1,106 @@
-body {
-    background-color: rgb(255, 255, 255);
-}
-
-#logo {
-    height: 50px;
-    width: 100px;
-}
-
-.accomm {
-    height: 100px;
-    width: 150px;
-    padding: .2rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    border: solid 1px rgb(255, 255, 255);
-    box-shadow: 4px 4px 4px #777;
-}
-
-section {
-    background-color: rgba(231, 230, 230, 0.589);
-    padding: .1rem;
-    margin: .1rem;
-    border-radius: 1rem;
-    border: solid 1px #777;
-    box-shadow: 4px 4px 4px #777;
-}
-
-section.sidebar {
-    max-width: 200px;
-}
-
-.pop {
-    height: 100px;
-    width: 120px;
-    height: 100px;
-    width: 120px;
-    padding: .2rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    border: solid 1px #777;
-    box-shadow: 4px 4px 4px #777;
-}
-
-.feature {
-    display: flex;
-    justify-content: space-between;
-}
-
-button {
-    background-color: blue;
-    color
-}
-
-.container div {
-    box-shadow: 4px 4px 4px #777;
-    margin: 1rem;
-    border-radius: 1rem;
-    width: 220px;
-}
-
-.container img {
-    height: 140px;
-    width: 220px;
-    object-fit: cover;
-    margin: 0;
-    border-radius: 1rem 1rem 0 0;
-}
-
-.fas.fa-dog {
-    color: blue;
-}
-
-.tall img {
-    height: 500px;
-}
-
-.tall {
-    grid-row-end: span 2;
-}
-
-.container h3 {
-    margin-left: 1rem;
-}
-
-.container div:nth-child(2) {
-    background-color: blueviolet;
-}
-
-.container div:nth-child(3) {
-    background-color: brown;
-}
-
-.container div:nth-child(4) {
-    background-color: cornflowerblue;
-}
-
-.container div:nth-child(5) {
-    background-color: darkgreen;
-}
-
-.container div:nth-child(6) {
-    background-color: darkorange;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 20em 20em 20em 20em;
-    grid-template-rows: 20em 20em 20em 20em;
-}
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        #logo {
+            height: 50px;
+            width: 100px;
+        }
+        
+        .accomm {
+            height: 100px;
+            width: 150px;
+            padding: .2rem;
+            margin: 1rem;
+            border-radius: 1rem;
+            border: solid 1px rgb(255, 255, 255);
+            box-shadow: 4px 4px 4px #777;
+        }
+        
+        section {
+            background-color: rgba(231, 230, 230, 0.589);
+            padding: .1rem;
+            margin: .1rem;
+            border-radius: 1rem;
+            border: solid 1px #777;
+            box-shadow: 4px 4px 4px #777;
+        }
+        
+        section.sidebar {
+            max-width: 200px;
+        }
+        
+        .pop {
+            height: 100px;
+            width: 120px;
+            height: 100px;
+            width: 120px;
+            padding: .2rem;
+            margin: 1rem;
+            border-radius: 1rem;
+            border: solid 1px #777;
+            box-shadow: 4px 4px 4px #777;
+        }
+        
+        .feature {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .container div {
+            background-color: blue;
+            box-shadow: 4px 4px 4px #777;
+            margin: 1rem;
+            border-radius: 1rem;
+            width: 220px;
+        }
+        
+        .container img {
+            height: 140px;
+            width: 220px;
+            object-fit: cover;
+            margin: 0;
+            border-radius: 1rem 1rem 0 0;
+        }
+        
+        .fas.fa-dog {
+            color: blue;
+        }
+        
+        .tall img {
+            height: 500px;
+        }
+        
+        .tall {
+            grid-row-end: span 2;
+        }
+        
+        .container h3 {
+            margin-left: 1rem;
+        }
+        
+        .container div:nth-child(2) {
+            background-color: blueviolet;
+        }
+        
+        .container div:nth-child(3) {
+            background-color: brown;
+        }
+        
+        .container div:nth-child(4) {
+            background-color: cornflowerblue;
+        }
+        
+        .container div:nth-child(5) {
+            background-color: darkgreen;
+        }
+        
+        .container div:nth-child(6) {
+            background-color: darkorange;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 20em 20em 20em 20em;
+            grid-template-rows: 20em 20em 20em 20em;
+        }
