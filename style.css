@@ -1,7 +1,6 @@
-        *{
+        * {
             box-sizing: border-box;
         }
-        
         
         body {
             background-color: rgb(255, 255, 255);
@@ -29,39 +28,40 @@
             border-radius: 1rem;
             border: solid 1px #777;
             box-shadow: 4px 4px 4px #777;
+            max-width: 600px;
         }
         
         section.sidebar {
             max-width: 200px;
         }
-
-        .filter{
+        
+        .filter {
             padding: 0 1rem 0 0;
             border-radius: 50px;
             border: gray solid 2px;
             height: 50px;
             display: inline-block;
         }
-
-        .filter *{
+        
+        .filter * {
             display: inline;
         }
-
-        .filter i{
+        
+        .filter i {
             color: blue;
             background-color: rgb(196, 227, 247);
             padding: 0;
             border-radius: 50%;
-            height: 50px ;
+            height: 50px;
             width: 50px;
-            display: inline-flex; 
+            display: inline-flex;
             justify-content: center;
             align-items: center;
             position: relative;
             right: 3px;
             bottom: 2px;
         }
-
+        
         .pop {
             height: 100px;
             width: 120px;
@@ -77,9 +77,11 @@
         .feature {
             display: flex;
             justify-content: space-between;
+            align-items: flex-start;
+            position: relative;
         }
         
-        .container div {
+        .sidebar .container div {
             background-color: blue;
             box-shadow: 4px 4px 4px #777;
             margin: 1rem;
@@ -135,4 +137,37 @@
             display: grid;
             grid-template-columns: 20em 20em 20em 20em;
             grid-template-rows: 20em 20em 20em 20em;
+        }
+        
+        .search button {
+            background-color: rgb(23, 23, 245);
+            color: white;
+            height: 40px;
+            width: 60px;
+            border-radius: 0 30% 30% 0;
+        }
+        
+        .fa-map-marker-alt {
+            background-color: rgb(223, 221, 221);
+            border: black solid 1px;
+            padding: 10px;
+            border-radius: 25% 0 0 25%;
+        }
+        
+        .top-text {
+            display: flex;
+            position: relative;
+            justify-content: flex-end;
+            gap: 50px;
+            margin-right: 50px;
+            margin-bottom: -20px;
+            font-size: 10px;
+        }
+        
+         :hover.clickable-text {
+            color: blue;
+        }
+        
+        #sign {
+            color: blue;
         }
