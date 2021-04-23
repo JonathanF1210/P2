@@ -29,11 +29,14 @@
             border: solid 1px #777;
             box-shadow: 4px 4px 4px #777;
             max-width: 600px;
+            max-height: 400px;
         }
         
         section.sidebar {
             max-width: 200px;
         }
+        
+        .all-filters h4 {}
         
         .filter {
             padding: 0 1rem 0 0;
@@ -63,10 +66,10 @@
         }
         
         .pop {
-            height: 100px;
-            width: 120px;
-            height: 100px;
-            width: 120px;
+            height: 80px;
+            width: 100px;
+            height: 80px;
+            width: 100px;
             padding: .2rem;
             margin: 1rem;
             border-radius: 1rem;
@@ -76,8 +79,13 @@
         
         .feature {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             align-items: flex-start;
+            margin-left: -200px;
+            position: relative;
+        }
+        
+        .feature .sidebar {
             position: relative;
         }
         
@@ -102,41 +110,19 @@
         }
         
         .tall img {
-            height: 500px;
+            height: 340px;
+            border: black solid 1px;
         }
         
         .tall {
             grid-row-end: span 2;
         }
         
-        .container h3 {
-            margin-left: 1rem;
-        }
-        
-        .container div:nth-child(2) {
-            background-color: blueviolet;
-        }
-        
-        .container div:nth-child(3) {
-            background-color: brown;
-        }
-        
-        .container div:nth-child(4) {
-            background-color: cornflowerblue;
-        }
-        
-        .container div:nth-child(5) {
-            background-color: darkgreen;
-        }
-        
-        .container div:nth-child(6) {
-            background-color: darkorange;
-        }
-        
         .container {
             display: grid;
-            grid-template-columns: 20em 20em 20em 20em;
-            grid-template-rows: 20em 20em 20em 20em;
+            grid-template-columns: 250px 250px 250px 250px;
+            grid-template-rows: 200px 200px 200px 200px;
+            margin-top: 200px;
         }
         
         .search button {
